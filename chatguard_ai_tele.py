@@ -4,8 +4,8 @@ from telegram import Update
 from jamaibase import JamAI, protocol as p
 
 # Initialize JamAI
-jamai = JamAI(api_key="jamai_pat_54ad365b238a825e6cadd977dd4d4ef85ad83cb0d82d3d1f",
-              project_id="proj_89c431f8f87cde88cd504be4")
+jamai = JamAI(api_key="add your JamAI Base api key",
+              project_id="add your JamAI Base project id")
 
 # Set up logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
